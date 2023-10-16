@@ -17,6 +17,8 @@ jobs:
 
     runs-on: ubuntu-latest
     steps:
+      - run: npm install -g bun
+
       - uses: actions/checkout@v2
 
       - run: bun build
