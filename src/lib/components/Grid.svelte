@@ -84,7 +84,7 @@
     }
   });
 
-  export function onClick(e) {
+  export function onClick(e: any) {
     const { x, y } = e.pointer;
 
     if (Math.abs(x) > Math.abs(y)) {
